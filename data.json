@@ -1,0 +1,107 @@
+{
+ "checked": "2026-11-04T13:42:59+00:00",
+ "platforms": [
+  {
+   "id": "instagram",
+   "name": "Instagram",
+   "metric": "followers",
+   "url": "https://www.instagram.com/wearebreakingclouds/",
+   "read": "https://www.instagram.com/wearebreakingclouds/",
+   "lastRead": "2026-11-02T09:27:00+00:00",
+   "counts": [
+    {
+     "date": "2026-11-01",
+     "n": 66
+    },
+    {
+     "date": "2026-11-02",
+     "n": 66
+    }
+   ]
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "metric": "followers",
+   "url": "https://www.tiktok.com/@wearebreakingcloud",
+   "read": "https://www.tiktok.com/@wearebreakingcloud",
+   "lastRead": "2026-11-04T13:42:59+00:00",
+   "counts": [
+    {
+     "date": "2026-11-01",
+     "n": 9
+    },
+    {
+     "date": "2026-11-02",
+     "n": 9
+    },
+    {
+     "date": "2026-11-04",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "id": "youtube",
+   "name": "YouTube",
+   "metric": "subscribers",
+   "url": "https://www.youtube.com/@wearebreakingclouds",
+   "read": "https://www.youtube.com/@wearebreakingclouds",
+   "lastRead": "2026-11-04T13:42:59+00:00",
+   "counts": [
+    {
+     "date": "2026-11-01",
+     "n": 1
+    },
+    {
+     "date": "2026-11-02",
+     "n": 1
+    },
+    {
+     "date": "2026-11-04",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "linkedin",
+   "name": "LinkedIn",
+   "metric": "followers",
+   "url": "https://www.linkedin.com/company/wearebreakingclouds/",
+   "read": "https://www.linkedin.com/company/wearebreakingclouds/",
+   "lastRead": "2026-11-04T13:42:59+00:00",
+   "counts": [
+    {
+     "date": "2026-11-01",
+     "n": 28
+    },
+    {
+     "date": "2026-11-04",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "id": "substack",
+   "name": "Substack",
+   "metric": "subscribers",
+   "url": "https://breakingclouds.substack.com/",
+   "read": "https://breakingclouds.substack.com/about",
+   "lastRead": "2026-11-04T13:42:59+00:00",
+   "counts": [
+    {
+     "date": "2026-11-01",
+     "n": 323
+    },
+    {
+     "date": "2026-11-02",
+     "n": 323
+    },
+    {
+     "date": "2026-11-04",
+     "n": 325
+    }
+   ]
+  }
+ ]
+}
