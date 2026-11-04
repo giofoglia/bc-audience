@@ -178,7 +178,7 @@ function render(){
       return `<article class="card small"><div class="who">${ICONS[p.id]||""}<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a></div>
         <div class="num">${fmtN(l.n)}<span class="unit">${esc(l.n===1?p.metric.replace(/s$/,""):p.metric)}</span></div>
         <div class="chg">${chg}</div>
-        ${isOld(p.lastRead)?`<div class="stale">Last read ${esc(ago(p.lastRead))}</div>`:""}
+        ${Date.now()-Date.parse(p.lastRead)>(p.id==="instagram"?50:STALE_HOURS)*36e5?`<div class="stale">Last read ${esc(ago(p.lastRead))}</div>`:""}
         ${spark(p.counts,win,p.metric)}</article>`}).join("")}
     <article class="card small"><div class="lab">Updates</div><div class="num" style="font-size:24px">About hourly</div>
       <div class="chg">Numbers come from each public page, while the Breaking Clouds PC is on. Last checked ${esc(ago(D.checked))}.</div></article>

@@ -66,6 +66,15 @@ def update(data):
     data["checked"] = now
 
 
+def set_count(data, pid, n):
+    # for a platform the script can't read itself: the number is supplied by the daily Claude sync
+    p = next(x for x in data["platforms"] if x["id"] == pid)
+    today = dt.date.today().isoformat()
+    p["counts"] = [c for c in p["counts"] if c["date"] != today] + [{"date": today, "n": n}]
+    p["lastRead"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    log(f"{pid}: {n} (supplied)")
+
+
 def publish():
     def git(*args):
         return subprocess.run(["git", *args], cwd=HERE, capture_output=True, text=True,
@@ -82,6 +91,8 @@ def publish():
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
     update(data)
+    if "--instagram" in sys.argv:
+        set_count(data, "instagram", int(sys.argv[sys.argv.index("--instagram") + 1]))
     DATA.write_text(json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8")
     if "--no-publish" not in sys.argv:
         publish()
