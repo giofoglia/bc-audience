@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-04T19:54:49+00:00",
+ "checked": "2026-11-05T05:43:07+00:00",
  "platforms": [
   {
    "id": "instagram",
@@ -29,7 +29,7 @@
    "metric": "followers",
    "url": "https://www.tiktok.com/@wearebreakingcloud",
    "read": "https://www.tiktok.com/@wearebreakingcloud",
-   "lastRead": "2026-11-04T17:43:01+00:00",
+   "lastRead": "2026-11-05T05:43:07+00:00",
    "counts": [
     {
      "date": "2026-11-01",
@@ -41,6 +41,10 @@
     },
     {
      "date": "2026-11-04",
+     "n": 9
+    },
+    {
+     "date": "2026-11-05",
      "n": 9
     }
    ]
@@ -51,7 +55,7 @@
    "metric": "subscribers",
    "url": "https://www.youtube.com/@wearebreakingclouds",
    "read": "https://www.youtube.com/@wearebreakingclouds",
-   "lastRead": "2026-11-04T17:43:01+00:00",
+   "lastRead": "2026-11-05T05:43:07+00:00",
    "counts": [
     {
      "date": "2026-11-01",
@@ -63,6 +67,10 @@
     },
     {
      "date": "2026-11-04",
+     "n": 1
+    },
+    {
+     "date": "2026-11-05",
      "n": 1
     }
    ]
@@ -73,7 +81,7 @@
    "metric": "followers",
    "url": "https://www.linkedin.com/company/wearebreakingclouds/",
    "read": "https://www.linkedin.com/company/wearebreakingclouds/",
-   "lastRead": "2026-11-04T19:54:49+00:00",
+   "lastRead": "2026-11-05T05:43:07+00:00",
    "counts": [
     {
      "date": "2026-11-01",
@@ -81,6 +89,10 @@
     },
     {
      "date": "2026-11-04",
+     "n": 30
+    },
+    {
+     "date": "2026-11-05",
      "n": 30
     }
    ]
@@ -91,7 +103,7 @@
    "metric": "subscribers",
    "url": "https://breakingclouds.substack.com/",
    "read": "https://breakingclouds.substack.com/about",
-   "lastRead": "2026-11-04T19:54:49+00:00",
+   "lastRead": "2026-11-05T05:43:07+00:00",
    "counts": [
     {
      "date": "2026-11-01",
@@ -103,6 +115,10 @@
     },
     {
      "date": "2026-11-04",
+     "n": 325
+    },
+    {
+     "date": "2026-11-05",
      "n": 325
     }
    ]
